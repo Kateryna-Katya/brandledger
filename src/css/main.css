@@ -78,3 +78,31 @@ color: #fff;
     gap: 20px;
     color: #fff;
 }
+/* Gameplay Highlights */
+.gameplay-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.gameplay-text-wrapper{
+    display: flex;
+        flex-direction: column;
+gap: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.gameplay-container {
+flex-direction: row-reverse;
+gap: 64px;
+    }
+.gameplay-wrapper{
+width: 548px;
+}
+.gameplay-wrapper h2{
+    text-align: left;
+}
+    .gameplay-text-wrapper {
+gap: 24px;
+width: 530px;
+    }
+}
