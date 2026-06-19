@@ -2,55 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/brandledger/favicon.svg" />
+    <meta name="description"
+      content="RETROXEL: Retro Arcade Games - A mobile collection of classic arcade games with pixel art, authentic sound, and addictive gameplay. Download now on Google Play." />    
+    <meta name="keywords"
+      content="Retro arcade games, mobile arcade, pixel art games, RETROXEL, classic arcade games, casual mobile games" />
+    <link rel="icon" type="image/png" href="/brandledger/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Titan+One&display=swap"
+        rel="stylesheet">
+    <title>RETROXEL</title>
     <script type="module" crossorigin src="/brandledger/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/brandledger/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/brandledger/assets/styles-fiwL5yE6.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <div class="home-wrapper">
+            <h1 class="home-title">Welcome to<br/> RETROXEL</h1>
+            <div class="home-text-wrapper">
+                <p>Step back in time with RETROXEL, a collection of classic arcade games redesigned for your mobile device. Whether you’re
+                a longtime arcade fan or just discovering the charm of pixel-perfect gameplay, RETROXEL brings you hours of fun with
+                simple controls and addictive challenges.</p>
+                <p>Download now from Google Play and start your retro gaming journey today.</p>
+                <a class="contact-link" href="https://play.google.com/store/apps/details?id=com.sjkim.retroxel2">
+                    <p>Get it on Google Play</p>
+                </a>
+            </div>
+        </div>
+            <picture>
+                <source srcset="/brandledger/assets/desk-B-Xi54W6.png 1x, /brandledger/assets/desk@2x-bm9H85XJ.png 2x" media="(min-width: 1439px)" />
+                <source srcset="/brandledger/assets/mob-I1FjoMzA.png 1x, /brandledger/assets/mob@2x--lNmdfLD.png 2x" media="(max-width: 1438px)" />
+                <img src="/brandledger/assets/mob-I1FjoMzA.png" alt="RETROXEL" loading="lazy" />
+            </picture>
+    </div>
+</section>
+<section class="what-section" id="what">
+    <div class="container">
+        <h2>What Makes RETROXEL Different?</h2>
+        <div class="what-text-wrapper">
+            <p>RETROXEL isn’t just a remake—it’s a celebration of the arcade era. Each game has been carefully crafted to maintain the
+            original feel while optimizing for mobile play. No clutter, no confusing menus, just pure gaming joy.</p>
+            <p>- Multiple classic arcade games in one app<br/>
+            - Crisp pixel art and authentic soundtracks<br />
+            - Easy to pick up, hard to master gameplay<br />
+            - Optimized for both phones and tablets</p>
+            <p>Whether you want a quick game on the go or to dive deep into high-score battles, RETROXEL adapts to your pace.</p>
+        </div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
