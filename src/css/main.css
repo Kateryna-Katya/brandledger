@@ -4,9 +4,10 @@
     align-items: center;
     gap: 20px;
     padding-bottom: 50px;
+    padding-top: 120px;
+    
 }
 .home-wrapper{
-    margin-top: 64px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -46,12 +47,11 @@ align-items: center;
  .home-container{
 flex-direction: row;
 gap: 64px;
-padding-bottom: 100px;
+padding-top: 160px;
 }
 .home-wrapper{
 width: 548px;
 gap: 40px;
-margin-top: 0;
 }
 .home-title{
 font-size: 60px;
